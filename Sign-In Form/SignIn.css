@@ -1,0 +1,62 @@
+h1{
+	background: #57B846;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;  
+}
+#sign{
+	background: #57B846;
+	color: white;
+}
+.bod{
+	background-color:  #D2CECE;
+}
+::placeholder{
+	color: green;
+	font-weight: bold;
+}
+form{
+	background: white;
+	border-radius: 25px;
+	margin-right: 400px;
+	margin-left: 400px;	
+}
+input[type=text], input[type=password] {
+  width: 75%;
+  padding: 12px 20px;
+  margin:10px 10px 10px 50px;	
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background: #D2CECE;
+}
+button[type=submit]{
+	width: 75%;
+	padding: 12px 20px;
+	margin:10px 10px 10px 50px;
+	text-align: center;
+	border-radius:50px;
+	cursor: pointer;
+}
+.fpass{
+	margin-right: 80px;
+	float:right;
+}
+.dsign{
+	padding-top: 150px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+a{
+	color: #57B846;
+	text-decoration: none;
+}
+label{
+	color: #D2CECE;
+}
+button:hover{
+	opacity: 0.8;
+}
